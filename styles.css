@@ -1,22 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 :root{
     --azul-remo:#08122b;
     --branco:#FFFFFF;
 }
 
 body {
-    color: var(--branco);
-    background: black;
-    margin: 0px;
-    font-family: 'Chakra Petch';
-    margin-bottom: 100px;
+    color: white;       /*cor-da-fonte: branco;*/
+    background-color: black;     /*cor-fundo: preto*/ 
+    margin: 0px;                /*margem-externa-elemento: 0pixels*/
+    font-family: 'Chakra Petch'; /*tipo-de-fonte*/
+    margin-bottom: 100px;      /*espaço-externa-de-baixo*/
 }
 
 header {
-    border-bottom: solid 2px rgb(42, 122, 228);
-    padding: 20px;
-    font-size: 32px;
-    color: rgb(42, 122, 228);
+    border-bottom: solid 2px rgb(42, 122, 228); 
+                    /*borda-de-baixo: linha-solida 2pixels cor-padrao-rgb*/
+    padding: 20px;  /*espaço-interno do elemento : 20pixels*/
+    font-size: 32px;  /*tamanho da fonte : 32pixels*/
+    color: rgb(42, 122, 228);  /*cor-da-fonte-texto: cor-padrao-rgb*/
 }
 .chamada {
     background: rgb(184,156,213);
