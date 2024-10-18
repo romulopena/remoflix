@@ -6,7 +6,7 @@
 
 body {
     color: white;       /*cor-da-fonte: branco;*/
-    background-color: black;     /*cor-fundo: preto*/ 
+    background-color: gold;     /*cor-fundo: DOURADO*/ 
     margin: 0px;                /*margem-externa-elemento: 0pixels*/
     font-family: 'Chakra Petch'; /*tipo-de-fonte*/
     margin-bottom: 100px;      /*espaço-externa-de-baixo*/
@@ -16,11 +16,11 @@ header {
     border-bottom: solid 2px rgb(42, 122, 228); 
                     /*borda-de-baixo: linha-solida 2pixels cor-padrao-rgb*/
     padding: 20px;  /*espaço-interno do elemento : 20pixels*/
-    font-size: 32px;  /*tamanho da fonte : 32pixels*/
+    font-size: 60px;  /*tamanho da fonte : 60pixels*/
     color: rgb(42, 122, 228);  /*cor-da-fonte-texto: cor-padrao-rgb*/
 }
 .chamada {
-    background: rgb(184,156,213);
+    background: goldenrod;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
